@@ -1,5 +1,5 @@
 FROM n8nio/n8n
 
-EXPOSE 5678
+EXPOSE 10000
 
-CMD ["n8n"]
+CMD ["n8n", "-p", "10000"]
